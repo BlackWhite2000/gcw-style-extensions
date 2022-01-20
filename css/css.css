@@ -1,0 +1,304 @@
+/**=======================================================
+====================初始化=======================
+=======================================================**/
+@import 'edit.css';
+@import 'blockquote.css';
+@import 'collapse.css';
+@import 'tabber.css';
+@import 'socialprofile.css';
+@import 'mbxxb.css';
+@import 'sjxxb.css';
+@import 'gxrz.css';
+@import 'variables.css';
+@import 'swm.css';
+/**=======================================================
+====================全局=======================
+=======================================================**/
+body{
+    background: url(/images/c/c0/Gcwbg.jpeg) var(--color-bg1) no-repeat center top fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    font-family: "Microsoft YaHei",Sans-Serif;
+    font-size: 18px;
+}
+.external{
+    color: #22ddff!important;
+}
+.color-1{
+    color:var(--color-1)!important;
+}
+.color-2{
+    color:var(--color-2)!important;
+}
+.color-3{
+    color:var(--color-3)!important;
+}
+.color-4{
+    color:var(--color-4)!important;
+}
+.color-bg2{
+    color:var(--color-bg2)!important;
+}
+.bg-color-1{
+     background-color:var(--color-1)!important;
+}
+.bg-color-bg1{
+     background-color:var(--color-bg1)!important;
+}
+.mw-body {
+    color: var(--color-p);
+    border: 1px solid  var(--color-bg1);
+    background-color: rgba(0,0,0,.8);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-1);
+}
+p{
+    color: var(--color-p);
+}
+img{max-width: 1200px;
+   
+    
+}
+.mw-parser-output img{
+    height: 100%;
+    max-width: 100%;
+}
+.mw-body a.external, a:-webkit-any-link{
+    color: var(--color-2);
+}
+a.new, #p-personal a.new{
+    color: var(--color-3)!important;
+}
+/**=======================================================
+====================懒加载=======================
+=======================================================**/
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+/**=======================================================
+====================轮播图=======================
+=======================================================**/
+.swiper-pagination-bullet-active {background: #ffdd22;border: 2px solid #fff;}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {background-image: url(/extensions/GCwiki/img/yjt.svg)!important;}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {background-image: url(/extensions/GCwiki/img/zjt.svg)!important;}
+/**=======================================================
+====================框架=======================
+=======================================================**/
+#mw-page-base {
+    background: none;
+    height: 12rem;
+}
+#mw-head {
+    background-image: linear-gradient(180deg,var(--color-1) .1rem,transparent .1rem);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#left-navigation, #right-navigation{
+    margin-top: 9.5rem;
+}
+
+/**=======================================================
+====================表格=======================
+=======================================================**/
+.wikitable {
+    background-color: var(--color-bg1);
+    color: var(--color-p);
+    padding: 0.1rem;
+    border-collapse: separate;
+    border: 1px solid var(--color-bg3);
+    max-width: 1200px;
+    width: 100%;
+}
+.wikitable:hover{
+     border: 1px solid var(--color-2);
+}
+.wikitable th{
+    font-size: 18px;
+}
+.wikitable >caption:first-child{
+    display: noen;
+}
+.wikitable > tr > th, .wikitable > * > tr > th {
+    background-color: var(--color-bg3);
+}
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border: 1px solid var(--color-bg3);
+    padding: 0.8rem 1.4rem;
+    background: var(--color-bg2);
+}
+
+/**=======================================================
+====================导航条=======================
+=======================================================**/
+div#MenuSidebar>ul, div#MenuSidebar>:first-child{
+    border-top: 2px solid var(--color-1);
+}
+div#MenuSidebar a:hover, div#MenuSidebar b:hover {
+    background-color:var(--color-1);
+}
+div#MenuSidebar > p {
+    color: var(--color-1);
+    background-image: linear-gradient(225deg,var(--color-1) 5px,transparent 6px);
+}
+div#MenuSidebar a.selflink{
+    color: var(--color-1);
+}
+div#MenuSidebar li b, div#MenuSidebar li a {
+    padding: .5rem 1.2rem;
+}
+div#MenuSidebar {
+    top: 12rem;
+}
+/**=======================================================
+====================顶部功能=======================
+=======================================================**/
+.vector-menu-tabs .selected a, .vector-menu-tabs .selected a:visited{
+    background-image:none;
+    color: var(--color-p);
+ 
+}
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3{
+    background-size: 0px;
+}
+.vector-menu-tabs li {
+    background-image: linear-gradient(to top,var(--color-bg2) 0,var(--color-bg2) 1px,var(--color-bg2) 100%);
+}
+.vector-menu-tabs .new a, .vector-menu-tabs .new a:visited, .vector-menu-tabs li a{
+    color: var(--color-2);
+    padding: 1rem;
+}
+.vector-menu-tabs .selected, .vector-menu-dropdown{
+    background-color:var(--color-bg2);
+}
+.vector-menu-dropdown h3{
+    color: var(--color-p);
+}
+#p-logo{
+    margin-top:1rem;
+}
+#p-personal {
+    top: 1.2rem;
+    font-size: 20px;
+}
+/**=======================================================
+====================搜索=======================
+=======================================================**/
+#p-search form{
+    margin: 0;
+}
+#simpleSearch {
+    width: 40rem;
+    max-width: 40rem;
+   font-size: 18px;
+   background-color: var(--color-bg2);
+}
+#simpleSearch input{
+    padding: 0.8rem;
+        background-color: transparent;
+
+}
+/**=======================================================
+====================底部=======================
+=======================================================**/
+
+.mw-footer li{
+    color:var(--color-p);
+}
+
+/**=======================================================
+====================页面底部分类=======================
+=======================================================**/
+.catlinks {
+    border: 1px solid var(--color-bg3);
+    background-color: var(--color-bg2);
+    padding: 0.4rem 0.8rem;
+}
+
+
+.fieldBox{
+    background: var(--color-bg2)!important;
+}
+.warningbox{
+background: var(--color-bg2);    
+}
+/*历史页面*/
+#pagehistory li.selected{
+    background-color: var(--color-bg2);
+    color: var(--color-p);
+   
+}
+
+
+/**=======================================================
+====================目录=======================
+=======================================================**/
+.toc, .mw-warning, .toccolours{
+ border: 1px solid var(--color-bg3);
+    background-color: var(--color-bg2);
+    line-height: 2;
+        position: absolute;
+    right: 0;
+    top: 0;
+}
+.toc:hover{
+    border: 1px solid var(--color-2);
+}
+.tocnumber{
+    color: var(--color-p);
+}
+.toctogglelabel{
+    color: var(--color-2);
+}
+.mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr .toc ul ul {
+    margin: 0 0 0 0.8rem;
+}
+/**=======================================================
+====================图片=======================
+=======================================================**/
+.mw-parser-output img{
+    border: 1px solid var(--color-bg3);
+}
+.mw-parser-output img:hover{
+    border: 1px solid var(--color-2);
+}
+div.thumbinner {
+    border: 0px;
+
+    background-color: transparent;
+
+}
+
+.GCwiki-mbxxb img{
+    border: 0px;
+}
+.GCwiki-mbxxb img:hover{
+    border: 0px;
+}
+
+/*保护模式*/
+.messagebox, .errorbox, .warningbox, .successbox{
+    color: var(--color-p);
+}
+
+
+.home-btn{
+    display:inline-block;padding: .5rem 1rem .5rem 1rem;
+}
+.home-btn img{
+    border: 0px;
+}
+.home-btn img:hover{
+    border: 0px;
+}
+.border-no-img img{
+    border: 0px;
+}
+.border-no-img img:hover{
+    border: 0px;
+}

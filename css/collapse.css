@@ -1,0 +1,56 @@
+/* 打开和关闭手风琴面板的样式 */
+.GCwiki-collapse {
+  background-color: var(--color-bg2);
+  color: var(--color-1);
+  cursor: pointer;
+  padding: .8rem 1.5rem;
+
+
+
+
+
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border:1px solid var(--color-1);
+ font-size: 18px;
+   font-weight: bold;
+   max-width: 1150px;
+    width: 100%;
+}
+ 
+/* 设置点击和鼠标移到选项上面时（悬停）的样式 */
+.GCwiki-collapse-active,.GCwiki-collapse:hover {
+  background-color: var(--color-1);
+  color: var(--color-bg2);
+}
+ 
+/* 为手风琴面板设计样式。 默认隐藏 */
+.GCwikipane {
+    background-color: var(--color-bg2);
+    max-height: 0;
+      max-width: 1150px;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: 1px solid var(--color-1);
+    padding: 0 1.5rem;
+}
+.GCwikipane div{
+	padding: .8rem 0;
+}
+/* 设置 +、- 标志 */
+.GCwiki-collapse:after {
+  content: '\002B';  /* Unicode 字符 + 号 */
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size:18px;
+}
+.GCwiki-collapse:hover::after {
+  color: var(--color-bg2);
+}
+.GCwiki-collapse-active:after { 
+  content: "\2212";  /* Unicode 字符 - 号 */
+}

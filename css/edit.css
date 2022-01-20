@@ -1,0 +1,141 @@
+.CodeMirror {
+    background: var(--color-bg1)!important;
+    color: var(--color-p)!important;
+}
+.cm-mw-template, .cm-mw-template-name, .cm-mw-template-argument-name, .cm-mw-template-delimiter, .cm-mw-template-bracket{
+    color: #cf7afb!important;
+}
+/*历史版本对比*/
+.diff-context {
+    background: #2e2e2e;
+    color: #d9d9d9;
+}
+.diff-addedline .diffchange, .diff-deletedline .diffchange {
+    padding: 0.4em 0.5rem;
+    color: #2e2e2e;
+}
+/**=======================================================
+====================文件列表=======================
+=======================================================**/
+.mw-datatable th {
+    background-color: var(--color-bg3);
+}
+.mw-datatable td {
+    background-color:  var(--color-bg2);
+}
+
+.mw-datatable tr:hover td {
+      background-color:  var(--color-bg3);
+}
+/**=======================================================
+====================监视图标=======================
+=======================================================**/
+.vector-menu-tabs #ca-unwatch.icon a:before {
+    background-image: linear-gradient(transparent,transparent),url(/extensions/GCwiki/img/unwatch-icon.svg);
+}
+.vector-menu-tabs #ca-unwatch.icon a:hover:before, .vector-menu-tabs #ca-unwatch.icon a:focus:before{
+    background-image: linear-gradient(transparent,transparent),url(/extensions/GCwiki/img/unwatch-icon.svg);
+}
+.vector-menu-tabs #ca-watch.icon a:before {
+    background-image: linear-gradient(transparent,transparent),url(/extensions/GCwiki/img/watch-icon-hl.svg);
+}
+.vector-menu-tabs #ca-watch.icon a:hover:before, .vector-menu-tabs #ca-watch.icon a:focus:before {
+    background-image: linear-gradient(transparent,transparent),url(/extensions/GCwiki/img/watch-icon-hl.svg);
+}
+#pt-anonuserpage, #pt-userpage a {
+    background-image: linear-gradient(transparent,transparent),url(/extensions/GCwiki/img/user-avatar.svg);
+}
+/**=======================================================
+====================更多=======================
+=======================================================**/
+.vector-menu-dropdown h3:after{
+    background-image: linear-gradient(transparent,transparent),url(/extensions/GCwiki/img/arrow-down.svg);
+}
+.vector-menu-dropdown .vector-menu-content-list {
+    background-color:  var(--color-bg2);
+    border: 1px solid  var(--color-bg3);
+}
+.vector-menu-dropdown li a {
+    color: var(--color-2);
+}
+
+/**=======================================================
+====================通知=======================
+=======================================================**/
+.oo-ui-icon-bell, .mw-ui-icon-bell:before {
+    background-image: linear-gradient(transparent,transparent),url(/extensions/GCwiki/img/reminder.svg);
+}
+.oo-ui-icon-tray, .mw-ui-icon-tray:before {
+    background-image: linear-gradient(transparent,transparent),url(/extensions/GCwiki/img/notification.svg);
+}
+
+/**=======================================================
+====================评论=======================
+=======================================================**/
+.comment-container{
+    padding: 1rem;
+}
+#flowthread{
+    max-width: 1200px;
+    width: 100%;
+}
+.comment-body textarea, .comment-preview {
+    font-size: 16px!important;
+    border: 1px solid  var(--color-bg3)!important;
+    background:  var(--color-bg2)!important;
+   outline: none!important;
+}
+.comment-body textarea:hover{
+    border: 1px solid var(--color-2)!important;
+}
+.comment-toolbar {
+    color: var(--color-p)!important;
+    border: 1px solid var(--color-bg3)!important;
+    background: var(--color-bg2)!important;
+}
+.comment-submit {
+    color: var(--color-p)!important;
+    font-size: 16px!important;
+    border: 1px solid var(--color-bg3)!important;
+    background-color: var(--color-bg3)!important;
+    box-shadow: none!important;
+    text-shadow: none!important;
+}
+.comment-submit:hover{
+    background-color: var(--color-1)!important;
+    color: var(--color-bg2)!important;
+}
+.flowthread-btn:active, .flowthread-btn.on {
+    border: 1px solid var(--color-bg3)!important;
+    box-shadow:none!important;
+}
+.flowthread-btn:hover {
+    border: 1px solid var(--color-2)!important;
+    box-shadow:none!important;
+}
+
+/**=======================================================
+====================搜索=======================
+=======================================================**/
+#searchInput{
+    border: 1px solid var(--color-bg3);
+    color: #ffdd22;
+      
+}
+#simpleSearch:hover #searchInput{
+    border: 1px solid var(--color-2);
+}
+#p-search form{
+    margin: 0;
+}
+#simpleSearch {
+    width: 40rem;
+    max-width: 40rem;
+   font-size: 18px;
+   background-color: var(--color-bg2);
+}
+#simpleSearch input{
+    padding: 0.8rem;
+        background-color: transparent;
+
+}

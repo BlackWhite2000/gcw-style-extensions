@@ -1,0 +1,24 @@
+{
+	"name": "GCwiki",
+	"version": "1.0.0",
+	"author": [
+		"BlackWhite"
+	],
+	"url": "https://GC.wiki",
+	"descriptionmsg": "gcwiki-desc",
+	"type": "other",
+	"license-name": "",
+	"MessagesDirs": {
+		"GCwiki": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"BeforePageDisplay": "GCwiki::BeforePageDisplay",
+		"VectorAfterToolbox": "GCwiki::VectorBeforeFooter"
+	},
+	"AutoloadClasses": {
+		"GCwiki": "GCwiki.class.php"
+	},
+	"manifest_version": 2
+}

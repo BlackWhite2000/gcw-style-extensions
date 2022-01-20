@@ -1,0 +1,99 @@
+#profile-image img{
+    background-color: transparent;
+    border: 0px;
+}
+.no-info-container {
+
+    background-color: #2e2e2e;
+
+    color: #d9d9d9;
+}
+
+
+
+.eye-container {
+
+    background: #2e2e2e;
+
+    box-shadow: none;
+}
+
+.eye-container .title {
+    font-size: 16px;
+  
+    color: #d9d9d9;
+
+}
+
+
+.profile-update-unit-left {
+    color: #d9d9d9;
+    font-size: 16px;
+
+}
+
+.profile-update-title {
+    color: #d9d9d9;
+
+}.eye-container .menu .item {
+    background: #2e2e2e;
+    color: #d9d9d9;
+    height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 0 0 30px;
+    margin: 0.2rem 0;
+}
+
+
+
+.profile-tab {
+    background-color: #2e2e2e;
+ color: #d9d9d9;
+    height: 30px;
+
+}
+
+.profile-tab-on {
+    background-color: #424242;
+
+    height: 30px;
+    color: #d9d9d9;
+    font-size: 16px;
+
+}
+
+
+#profile-right {
+ 
+    padding-top: 0.7rem;
+}
+#contentSub, #contentSub2 {
+  
+    margin: 0 0 0 1rem;
+
+}
+#profile-top {
+  
+    margin: 0 0 2rem 0;
+
+}
+.profile-on {
+    background-color: #ffdd22;
+    border: 1px solid #ffdd22;
+
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #2e2e2e;
+    font-size: 18px;
+    
+}
+
+
+
+#profile-toggle-button{
+    background-color: #ffdd22;
+}
+#profile-toggle-button a {
+    color: #2e2e2e;
+
+}

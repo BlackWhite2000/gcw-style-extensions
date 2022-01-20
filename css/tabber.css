@@ -1,0 +1,28 @@
+ul.tabbernav{
+        border-bottom: 0px!important;
+}
+ul.tabbernav li a {
+    padding: 0.7rem 1.5rem!important;
+    border: 1px solid var(--color-bg3)!important;
+    background: var(--color-bg2)!important;
+    font-size: 16px;
+    color: var(--color-p)!important;
+}
+ul.tabbernav li a:hover{
+    border: 1px solid var(--color-2)!important;
+}
+ul.tabbernav li.tabberactive a {
+    background-color: var(--color-1)!important;
+    color: var(--color-bg2)!important;
+}
+.tabber .tabbertab {
+    border: 1px solid var(--color-bg3)!important;
+    padding: 1rem!important;
+    background: var(--color-bg1);
+}
+.tabber .tabbertab:hover {
+    border: 1px solid var(--color-2)!important;
+}
+ul.tabbernav li{
+    padding-top: 1.5rem;
+}
