@@ -129,7 +129,7 @@ a.new, #p-personal a.new{
 }
 .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
     border: 1px solid var(--color-bg3);
-    padding: 0.8rem 1.4rem;
+    padding: 0.6rem 1.2rem;
     background: var(--color-bg2);
 }
 
@@ -245,6 +245,7 @@ background: var(--color-bg2);
         position: absolute;
     right: 0;
     top: 0;
+
 }
 .toc:hover{
     border: 1px solid var(--color-2);
