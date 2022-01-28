@@ -1,0 +1,53 @@
+
+.GCwiki-home-box{
+  width: auto; 
+  height: 100%;
+  padding: .6rem;
+}
+
+.GCwiki-home-div{
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--color-bg3);
+    background-color: var(--color-bg1);
+}
+.GCwiki-home-div:hover{
+
+    border: 1px solid var(--color-2);
+    
+}
+.GCwiki-home-title{
+    padding: 0.6rem;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid var(--color-bg3);
+    background-color: var(--color-bg2);
+    color:var(--color-1);
+}
+
+
+.GCwiki-home-btn{
+   width: 100%;
+   text-align: center;
+}
+.GCwiki-home-btn-div{
+display:inline-block;
+width: 30%;
+text-align: center;
+}
+.GCwiki-home-btn-img{
+    max-width: 100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem 0 0 0;
+  
+}
+.GCwiki-home-btn-img img{
+border: 0px!important;
+}
+.GCwiki-home-btn-link{
+    font-weight: bold;
+        padding: 1rem 0;
+}
