@@ -12,6 +12,8 @@
 @import 'variables.css';
 @import 'swm.css';
 @import 'home.css';
+@import 'liMarquee.css';
+@import 'tlb.css';
 /**=======================================================
 ====================全局=======================
 =======================================================**/
@@ -70,6 +72,9 @@ img{max-width: 1200px;
 }
 a.new, #p-personal a.new{
     color: var(--color-3)!important;
+}
+.toggleSymbol {
+    color: var(--color-2)!important;
 }
 /**=======================================================
 ====================懒加载=======================

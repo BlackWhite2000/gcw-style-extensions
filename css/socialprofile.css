@@ -97,3 +97,9 @@
     color: #2e2e2e;
 
 }
+
+.user-relationship-container img {
+    background-color: transparent;
+    border: 1px solid var(--color-bg3);
+    
+}

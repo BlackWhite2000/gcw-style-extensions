@@ -7,6 +7,7 @@ class GCwiki {
      return true;
     }
      public static function VectorBeforeFooter() {
+     echo '<script type="text/javascript" src="/extensions/GCwiki/js/js.js"></script>';
      echo '<script type="text/javascript" src="/extensions/GCwiki/js/collapse.js"></script>';
      return true;
     }
