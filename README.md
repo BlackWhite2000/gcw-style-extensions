@@ -1,3 +1,3 @@
 # [GCW](https://gcw.wiki/%E9%A6%96%E9%A1%B5)
-理论上这样写不规范，应该写在wiki的页面里，这样方便拥有界面样式编辑权限的人去修改。
-后期将会把大部分的样式搬到wiki的页面里。
+为方便界面编辑人员编写，目前的CSS样式已搬至[Common.css](https://gcw.wiki/MediaWiki:Common.css)页面。
+请遵循GCW编辑规范编写。
